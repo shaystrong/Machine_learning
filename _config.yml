@@ -10,7 +10,7 @@ kind: "lesson"
 title: "Machine Learning"
 
 # Repository URL (without trailing slash).
-repo: https://github.com/yixinmao/machine-learning
+repo: https://github.com/waterhackweek/machine-learning
 
 # Root URL below username.github.io domain, with leading slash but no trailing slash.
 # For example, for 'https://geohackweek.github.io/lesson-example', use '/lesson-example'.
