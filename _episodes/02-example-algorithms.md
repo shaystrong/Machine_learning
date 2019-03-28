@@ -46,21 +46,17 @@ keypoints:
 <i>(image source: Hastie et al. (2016): The Elements of Statistical Learning, Second Edition, Chapter 6.</i>
 
 
-## Support Vector Machine (SVM)
+## Logistic Regression
 
 #### (Supervised learning, classification)
 
-- SVM is a classification algorithm that separates classes with a clear gap that is as wide as possible (i.e., **large margin**).
+- Don't be fooled by its name - logistic regression is the most popular classification algorithm!
 
-- SVM is often combined with some data transformations (called **kernels**) such that the transformed data can be linear separated.
+- In a binary-outcome case, logistic regression predicts the probability of the outcome being 1 versus 0.
 
-- A review of SVM applications in water resources research: [Raghavendra and Deka (2014): Support vector machine applications in the field of hydrology: A review, Applied Soft Computing.](https://www.sciencedirect.com/science/article/pii/S1568494614000611#!)
+![alt text](http://uc-r.github.io/public/images/analytics/logistic_regression/plot1-1.png){:class="img-responsive"}
 
-![alt text](https://eight2late.files.wordpress.com/2017/01/svm-fig-2.png){:class="img-responsive"}
-
-![alt text](https://eight2late.files.wordpress.com/2017/01/svm-fig-3.png){:class="img-responsive"}
-
-<i>Figure: Illustration of SVM finding the largest margin decision boundary (upper panel: many possible decision boundaries to separate the data of two classes; lower panel: the decision boundary found by SVM that has the largest margin, i.e., the distance between the decision boundary and the points that are closest to it).</i>
+<i>Comparison of linear regression fit and logistic regression fit for a binary outcome data set. In this example, the x-axis is the input variable, credit card balance, and the y-axis is whether or not defaulting happened (image source: http://uc-r.github.io/logistic_regression).</i>
 
 
 ## Decision Tree and Random Forest
@@ -116,7 +112,7 @@ keypoints:
 <i>Figure: Example PCA application in atmospheric sciences. Here "residual SST field" is sea surface temperature from which the variability associated with the ENSO cycle has been removed (image source: Zhang et al. (2017): ENSO-like Interdecadal Variability: 1900–93, Journal of Climage).</i>
 
 
-## Neural Network
+## Neural Network and Deep Learning
 
 #### (Supervised or unsupervised learning, classification or regression)
 
